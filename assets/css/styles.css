@@ -344,7 +344,7 @@ table {
     display:block;
     margin:0 auto;
     width:auto;
-    max-width:75%;
+    max-width:95%;/*CHANGED*/
     height:auto;
 }
 
@@ -530,7 +530,7 @@ table {
     filter: alpha(opacity=100); 
 }
 #footer .social-icons li img {
-    width:18px !important;
+    width:58px !important; /*CHANGED 18px on 58px*/
     height: auto !important
 }
 
@@ -1307,7 +1307,7 @@ h6 {
 #main-content .carousel .carousel-inner {
     width:86%;
     margin-left:7%;
-    margin-right:7%;    
+    margin-right:7%;
 }
 
 #main-content .carousel .carousel-inner .item {
@@ -1490,7 +1490,7 @@ h6 {
         #main-content .carousel .carousel-inner {
             width:60%;
             margin-left:20%;
-            margin-right:20%;   
+            margin-right:20%;
         } 
 
         #main-content .section-wrapper .carousel.with-title-indicators .carousel-inner {
