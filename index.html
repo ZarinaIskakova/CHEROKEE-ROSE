@@ -60,6 +60,7 @@
           <li id="menu-item-video" class="menu-item scroll"><a href="#video">Video</a></li>
           <li id="menu-item-audio" class="menu-item scroll"><a href="#audio">Audio</a></li>
           <li id="menu-item-photos" class="menu-item scroll"><a href="#photos">Photos</a></li>
+          <li id="menu-item-songlist" class="menu-item scroll"><a href="#songlist">Songlist</a></li>
           <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li>
         </ul><!-- #main-menu -->
 
@@ -84,96 +85,90 @@
 
         <article id="band" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg2.jpg">
           <div class="content-wrapper clearfix">
+            <div class="col-sm-11 col-md-10 pull-right">
 
-              <div id="features-carousel" class="carousel slide with-title-indicators max-height" data-height-percent="80" data-ride="carousel">
+                <h1 class="section-title">Cherokee Rose</h1>
                 
-                <!-- Indicators - slide navigation -->
-                <ol class="carousel-indicators title-indicators">
-                  <li data-target="#features-carousel" data-slide-to="0" class="active">Cherokee Rose</li>
-                  <li data-target="#features-carousel" data-slide-to="1">Craig</li>
-                  <li data-target="#features-carousel" data-slide-to="2">Dave</li>
-                  <li data-target="#features-carousel" data-slide-to="3">Gareth</li>
-		  <li data-target="#features-carousel" data-slide-to="4">Johan</li>
-                </ol>
+                <!-- grid -->
+                <section class="grid row clearfix clearfix-for-2cols">
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-
-                  <div class="item active">
-                    <div class="carousel-text-content">
-                      <img data-img-src="assets/images/other_images/cherokee_rose.jpg" class="lazy item-thumbnail" alt="Cherokee Rose">
-                      <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio.</p>
-                      <p><a href="" onClick="populate_and_open_modal(event, 'modal-content-2');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <img data-img-src="assets/images/other_images/craig.jpg" class="lazy rounded_border hover_effect pull-left" alt="Craig">
+                      <div class="text-content">
+                        <h5>Craig</h5>
+                        <p>Nullam ac rhoncus sapien, non gravida purus. Aliquam adipiscing eros non elit imperdiet congue.
+                        <br />
+                        <a href="" onClick="populate_and_open_modal(event, 'modal-content-2');" class="">read more</a></p>
+                      </div>
                       <div class="content-to-populate-in-modal" id="modal-content-2">
-                        <h1>Cherokee Rose</h1>
-                        <p><img data-img-src="assets/images/other_images/cherokee_rose.jpg" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
-                        <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
-                        <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
-                      </div><!-- #modal-content-2 -->
-                    </div>
-                  </div><!-- .item -->
-
-                  <div class="item">
-                    <div class="carousel-text-content">
-                      <img data-img-src="assets/images/other_images/craig.jpg" class="lazy item-thumbnail" alt="Craig">
-                      <p><a href="" onClick="populate_and_open_modal(event, 'modal-content-3');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-3">
                         <h1>Craig</h1>
                         <p><img data-img-src="assets/images/other_images/craig.jpg" class="lazy rounded_border hover_effect pull-left" alt="Craig">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
                         <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
                         <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
                       </div><!-- #modal-content-3 -->
-                    </div>
-                  </div><!-- .item -->
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
 
-                  <div class="item">
-                    <div class="carousel-text-content" style="height:20px;">
-		      <img data-img-src="assets/images/other_images/dave.jpg" class="lazy item-thumbnail" alt="Dave">
-                      <p><a href="" onClick="populate_and_open_modal(event, 'modal-content-4');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-4">
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <img data-img-src="assets/images/other_images/dave.jpg" class="lazy rounded_border hover_effect pull-left" alt="Dave">
+                      <div class="text-content">
+                        <h5>Dave</h5>
+                        <p>Nullam ac rhoncus sapien, non gravida purus. Alinon elit imperdiet congue.
+                        <br />
+                        <a href="" onClick="populate_and_open_modal(event, 'modal-content-3');" class="">read more</a></p>
+                      </div>
+                      <div class="content-to-populate-in-modal" id="modal-content-3">
                         <h1>Dave</h1>
                         <p><img data-img-src="assets/images/other_images/dave.jpg" class="lazy rounded_border hover_effect pull-left" alt="Dave">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
                         <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
                         <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
                       </div><!-- #modal-content-4 -->
-                    </div>
-                  </div><!-- .item -->
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
 
-                  <div class="item">
-                    <div class="carousel-text-content">
-		      <img data-img-src="assets/images/other_images/gareth.jpg" class="lazy item-thumbnail" alt="Gareth">
-                      <p><a href="" onClick="populate_and_open_modal(event, 'modal-content-5');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-5">
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <img data-img-src="assets/images/other_images/gareth.jpg" class="lazy rounded_border hover_effect pull-left" alt="Gareth">
+                      <div class="text-content">
+                        <h5>Gareth</h5>
+                        <p>Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula ligula eget.
+                        <br />
+                        <a href="" onClick="populate_and_open_modal(event, 'modal-content-4');" class="">read more</a></p>
+                      </div>
+                      <div class="content-to-populate-in-modal" id="modal-content-4">
                         <h1>Gareth</h1>
                         <p><img data-img-src="assets/images/other_images/gareth.jpg" class="lazy rounded_border hover_effect pull-left" alt="Gareth">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
                         <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
                         <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
                       </div><!-- #modal-content-5 -->
-                    </div>
-                  </div><!-- .item -->
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
 
-                  <div class="item">
-                    <div class="carousel-text-content">
-		      <img data-img-src="assets/images/other_images/johan.jpg" class="lazy item-thumbnail" alt="Johan">
-                      <p><a href="" onClick="populate_and_open_modal(event, 'modal-content-9');" class="btn btn-outline-inverse btn-sm">read more</a></p>
-
-                      <div class="content-to-populate-in-modal" id="modal-content-9">
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <img data-img-src="assets/images/other_images/johan.jpg" class="lazy rounded_border hover_effect pull-left" alt="Johan">
+                      <div class="text-content">
+                        <h5>Johan</h5>
+                        <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Integer ultricies sed ligula eget tempus.
+                        <br />
+                        <a href="" onClick="populate_and_open_modal(event, 'modal-content-5');" class="">read more</a></p>
+                      </div>
+                      <div class="content-to-populate-in-modal" id="modal-content-5">
                         <h1>Johan</h1>
                         <p><img data-img-src="assets/images/other_images/johan.jpg" class="lazy rounded_border hover_effect pull-left" alt="Johan">Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. <a href="#">Suspendisse molestie lorem odio</a>, sit amet. </p>
                         <p>Laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio, sit amet.</p>
                         <p>Suspendisse molestie lorem odio, sit amet. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio test.</p>
                       </div><!-- #modal-content-5 -->
-                    </div>
-                  </div><!-- .item -->
-                </div><!-- .carousel-inner -->
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#features-carousel" data-slide="prev"></a>
-                <a class="right carousel-control" href="#features-carousel" data-slide="next"></a>              </div><!-- #about-carousel -->
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+                </section><!-- end: grid -->
+            </div><!-- .col-sm-11 -->
           </div><!-- .content-wrapper -->
         </article>
         <!-- .section-wrapper -->
@@ -252,25 +247,17 @@
                 <h1 class="section-title">Audio</h1>
 
                 <p class="feature-paragraph">
-              <div>
+                  <div>
                     <span style="font-weight:bold;">Cherokee Rose - Stay</span>
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/81797096&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-              </div>
+                  </div>
                   <br />
                   <div>
                     <span style="font-weight:bold;">Cherokee Rose - Internet girl</span>
                     <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93640178&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                   </div>
                 </p>
-                
-                <div class="content-to-populate-in-modal" id="modal-content-1">
-                  <h1>Lorem Ipsum</h1>
-                  <p><img data-img-src="assets/images/other_images/transp-image4.png" class="lazy rounded_border hover_effect pull-right" alt="Lorem Ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in urna vel ante mollis tincidunt. Donec nec magna condimentum tortor laoreet lobortis. Nunc accumsan sapien eu tortor fringilla, et condimentum metus pellentesque. Maecenas rhoncus tortor nec mi congue aliquet. Integer eu turpis scelerisque, iaculis magna non, tempor sem. Quisque consectetur nisi eu felis euismod, sit amet faucibus justo molestie. Ut pretium sapien dui, id facilisis metus interdum pharetra.</p>
-                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
-                  <h3>Duis dictum lorem metus, vitae dapibus</h3>
-                  <p><img data-img-src="assets/images/other_images/transp-image3.png" class="lazy rounded_border hover_effect pull-left" alt="Lorem Ipsum">Sed auctor urna mi, sed fringilla felis vulputate nec. Cras eu nibh id quam pretium convallis. Donec ante enim, placerat nec sagittis sit amet, tempor in velit. Maecenas ultricies commodo lacus id porta. Suspendisse eros elit, lacinia vitae erat vitae, egestas accumsan nunc. Maecenas dictum odio ipsum, non volutpat erat consequat tempor. Pellentesque sed malesuada turpis. Quisque eget lacus sit amet dui feugiat molestie sit amet eget purus. Morbi eget neque nec lectus tempus sagittis nec at ante. </p>
-                  <p>Etiam scelerisque lacus tempor, rhoncus diam vel, gravida felis. Fusce tristique sem et leo aliquam vulputate. Ut eget orci in sapien commodo fringilla. Ut luctus faucibus viverra. Quisque ut ante eget libero rutrum imperdiet. Morbi in diam bibendum, venenatis arcu sed, consequat libero. Nulla imperdiet, ipsum et adipiscing pulvinar, nibh metus porta mauris, et vestibulum dolor sapien sit amet justo. In dignissim leo nec erat faucibus volutpat.</p>
-                </div><!-- #modal-content-1 -->
+
             </div><!-- .col-sm-10 -->
           </div><!-- .content-wrapper -->
         </article>
@@ -304,37 +291,53 @@
                       <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
                         <!-- slide -->
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-003.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-003.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-004.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-004.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-005.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-005.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-006.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-006.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-007.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-007.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-008.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-008.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-009.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-009.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-010.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-010.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-011.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-011.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-012.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-012.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-013.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-013.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-014.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-014.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-015.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-015.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-016.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-016.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-017.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-017.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-018.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/cat-and-fiddle-018.jpg">
+                        </div>
                       </div>
                     </div><!-- #modal-content-6 -->
                   </article>
@@ -355,11 +358,14 @@
                       <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
                       <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/DSC02851.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/DSC02851.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070814.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070814.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070824.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070824.jpg">
+                        </div>
                       </div>
                     </div><!-- #modal-content-7 -->
                   </article>
@@ -380,11 +386,14 @@
                       <p>Nullam ac rhoncus. Aliquam adipiscing eros non elit imperdiet congue. Etiam at ligula sit amet arcu laoreet consequat. Duis dictum lorem metus, vitae dapibus risus imperdiet nec. Suspendisse molestie lorem odio</a>, sit amet. </p>
                       <div id="unique-id-for-image-slider" class="owl-carousel popup-image-gallery">
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/DSC02851.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/DSC02851.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070814.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070814.jpg">
+                        </div>
                         <div>
-                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070824.jpg">                        </div>
+                          <img class="lazyOwl" data-src="assets/images/other_images/photos/P1070824.jpg">
+                        </div>
                       </div>
                     </div><!-- #modal-content-8 -->
                   </article>
@@ -395,6 +404,135 @@
           </div><!-- .content-wrapper -->
         </article>
         <!-- .section-wrapper -->
+
+        <article id="songlist" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg4.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right">
+
+                <h1 class="section-title">List of All Songs</h1>
+
+                <section class="grid row clearfix clearfix-for-2cols">
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <h4>Originals</h4>
+                      <ol>
+                        <li>Enemy</li>
+                        <li>The fall</li>
+                        <li>Stay</li>
+                        <li>Devil in you</li>
+                        <li>Shake your ass</li>
+                        <li>Ride</li>
+                        <li>Shred it</li>
+                        <li>Affliction</li>
+                        <li>Aces and spades</li>
+                        <li>Internet girl</li>
+                        <li>Winter</li>
+                      </ol>
+                      <br />
+                      <a href="" onClick="populate_and_open_modal(event, 'modal-content-9');" class="btn btn-outline-inverse btn-xs">more</a>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <h4>Covers</h4>
+                      <ol>
+                        <li>3 A.M. (Matchbox 20)</li>
+                        <li>876-5309/Jenny (Tommy Tutone)</li>
+                        <li>Alone with you (The Sunnyboys)</li>
+                        <li>Baker street (Gerry Rafferty)</li>
+                        <li>Beautiful People (Australian Crawl)</li>
+                        <li>Berlin chair (You am I)</li>
+                        <li>Comedown (Bush)</li>
+                        <li>Dakota (Stereophonics)</li>
+                        <li>Fortunate Son (Creedence Clearwater Revival)</li>
+                        <li>Hey Jealously (Gin Blossoms)</li>
+                        <li>History Never Repeats (Split Enz)</li>
+                        <li>Just Like Fire Would (The Saints)</li>
+                        <li>Lets Go (The Cars)</li>
+                        <li>Mamma Mia (ABBA)</li>
+                        <li>Maxine (Sharon O'Neil)</li>
+                      </ol>
+                      <br />
+                      <a href="" onClick="populate_and_open_modal(event, 'modal-content-1');" class="btn btn-outline-inverse btn-xs">more</a>
+                    </div>
+                  </div>
+                  <!-- grid item -->
+
+                </section>
+                
+                <div class="content-to-populate-in-modal" id="modal-content-9">
+                  <h1>Originals</h1>
+                  <p>
+                    <ol>
+                      <li>Enemy</li>
+                      <li>The fall</li>
+                      <li>Stay
+                        <span style="margin-left:10px;">
+                          <iframe width="30%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/81797096&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                        </span>
+                      </li>
+                      <li>Devil in you</li>
+                      <li>Shake your ass</li>
+                      <li>Ride</li>
+                      <li>Shred it</li>
+                      <li>Affliction</li>
+                      <li>Aces and spades</li>
+                      <li>Internet girl
+                        <span style="margin-left:10px;">
+                          <iframe width="30%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/93640178&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                        </span>
+                      </li>
+                      <li>Winter
+                        <span style="margin-left:10px;">
+                          <iframe width="30%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89552468&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                        </span>
+                      </li>
+                    </ol>
+                  </p>
+                </div><!-- #modal-content-9 -->
+
+                <div class="content-to-populate-in-modal" id="modal-content-1">
+                  <h1>Covers</h1>
+                  <p>
+                    <ol>
+                      <li>3 A.M. (Matchbox 20)</li>
+                      <li>876-5309/Jenny (Tommy Tutone)</li>
+                      <li>Alone with you (The Sunnyboys)
+                        <span style="margin-left:10px;">
+                          <iframe width="30%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/95623850&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                        </span>
+                      </li>
+                      <li>Baker street (Gerry Rafferty)</li>
+                      <li>Beautiful People (Australian Crawl)</li>
+                      <li>Berlin chair (You am I)</li>
+                      <li>Comedown (Bush)</li>
+                      <li>Dakota (Stereophonics)</li>
+                      <li>Fortunate Son (Creedence Clearwater Revival)</li>
+                      <li>Hey Jealously (Gin Blossoms)</li>
+                      <li>History Never Repeats (Split Enz)</li>
+                      <li>Just Like Fire Would (The Saints)</li>
+                      <li>Lets Go (The Cars)</li>
+                      <li>Mamma Mia (ABBA)</li>
+                      <li>Maxine (Sharon O'Neil)</li>
+                      <li>Nips are getting bigger (Mental as Anything)</li>
+                      <li>Rockin’ in the free world (Neil Young)</li>
+                      <li>Right here (The Go Betweens)</li>
+                      <li>She sells Sanctuary (The Cult)</li>
+                      <li>Sister Golden Hair (America)</li>
+                      <li>So Long (Fisher Z)</li>
+                      <li>Yesterdays Hero (John Paul Young)</li>
+                    </ol>
+                  </p>
+                </div><!-- #modal-content-13 -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
 
         <article id="contact" class="section-wrapper clearfix" data-custom-background-img="assets/images/other_images/bg3.jpg">
           <div class="content-wrapper clearfix">
